@@ -1,10 +1,7 @@
 <script>
-  let count = $state(0)
-  const increment = () => {
-    count += 1
-  }
+  import { mainCount, incrementMainCount } from './mainCount.js'
 </script>
 
-<button onclick={increment}>
-  count is {count}
+<button on:click={incrementMainCount}>
+  count is {$mainCount}
 </button>
