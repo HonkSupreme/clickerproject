@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Page not found — Clicker Project</title>
+  <style>
+    body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial; display:flex; align-items:center; justify-content:center; height:100vh; margin:0; background:#f8f9fb; color:#111; }
+    .card { text-align:center; padding:2rem; border-radius:8px; background:white; box-shadow:0 6px 18px rgba(0,0,0,0.08); }
+    a.button { display:inline-block; margin-top:1rem; padding:0.5rem 0.9rem; background:#2563eb; color:white; text-decoration:none; border-radius:6px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>404 — Page not found</h1>
+    <p>It looks like that page doesn't exist.</p>
+    <p><a class="button" href="https://honksupreme.github.io/clickerproject/">Go to Clicker Project homepage</a></p>
+    <p style="font-size:.9rem; color:#666; margin-top:1rem">You will be redirected to the homepage in 3 seconds.</p>
+  </div>
+
+  <script>
+    setTimeout(function(){
+      location.href = 'https://honksupreme.github.io/clickerproject/';
+    }, 3000);
+  </script>
+</body>
+</html>
